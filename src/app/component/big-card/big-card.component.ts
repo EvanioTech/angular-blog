@@ -8,13 +8,13 @@ import { Component, Input, OnInit } from '@angular/core';
 export class BigCardComponent implements OnInit {
 
   @Input()
-  linkSite:string =""
-  @Input()
   photoCover:string ="";
   @Input()
   cardTitle:string ="IA nossa nova aliada!";
   @Input()
   cardDescription:string ="";
+  @Input()
+  Id:string="0"
 
   constructor() { }
 
