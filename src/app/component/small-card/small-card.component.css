@@ -1,0 +1,45 @@
+.container__small-card{
+margin-bottom: 15px;
+
+width: 700px;
+}
+.container__small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+.container__small-card-separator{
+  margin-top: 10px;
+}
+
+.small-card__title > h1{
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.small-card__title > h1 > a{
+  text-decoration: none;
+
+}
+
+
+.small-card__description > p{
+  margin-top: 10px;
+  color: gray;
+
+  margin-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.small-card__photo{
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
